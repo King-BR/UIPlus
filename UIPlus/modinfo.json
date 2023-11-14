@@ -3,7 +3,7 @@
   "author": "KingBR",
   "description": "Show some extra things in the UI",
   "version": "v1.5.2",
-  "license": "GNU AGPLv3",
+  "license": "MIT",
   "icon": "icon.png",
   "banner": "icon.png",
   "gameVersion": "1.0",
