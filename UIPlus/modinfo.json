@@ -1,0 +1,94 @@
+{
+  "name": "UI+",
+  "author": "KingBR",
+  "description": "Show some extra things in the UI",
+  "version": "v1.5.2",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "icon.png",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/uiplus/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "checkbox",
+
+      "name": "enableStorageLabels",
+      "text": "Enable Storage Labels?",
+      "default": true,
+      "access": "both"
+    },
+    {
+      "type": "checkbox",
+      "name": "enableShowTankCapacity",
+      "text": "Enable Show Tank Capacity?",
+      "default": true,
+      "access": "both"
+    },
+    {
+      "type": "checkbox",
+
+      "name": "enableCropplotPlantList",
+      "text": "Enable Cropplot Plant List?",
+      "default": true,
+      "access": "both"
+    },
+    {
+      "type": "text",
+      "name": "storageLabels",
+      "text": "----- Storage Labels",
+      "access": "both"
+    },
+    {
+      "type": "keybind",
+      "name": "storageLabelKeybind",
+      "text": "Open Label Menu",
+      "access": "world",
+      "mainDefault": "F1"
+    },
+    {
+      "type": "button",
+      "name": "deletelabelsWorld",
+      "text": "Delete All Labels From World",
+      "access": "world"
+    },
+    {
+      "type": "text",
+      "name": "showTankCapacity",
+      "text": "----- Show Tank Capacity",
+      "access": "both"
+    },
+    {
+      "type": "combobox",
+      "name": "tankCapacityStyle",
+      "text": "Style",
+      "default": "number",
+      "values": [ "number", "percent", "percent rounded", "number + percent", "number + percent rounded" ],
+      "access": "both"
+    },
+    {
+      "type": "text",
+      "name": "cropplotPlantList",
+      "text": "----- Cropplot Plant List",
+      "access": "both"
+    },
+    {
+      "type": "combobox",
+      "name": "cropplotPlantListStyle",
+      "text": "Style",
+      "default": "grouped",
+      "values": [ "grouped", "list" ],
+      "access": "both"
+    },
+    {
+      "type": "combobox",
+      "name": "cropplotPlantListTimeStyle",
+      "text": "Grouped Time Style",
+      "default": "closer",
+      "values": [ "closer", "farthest", "average" ],
+      "access": "both"
+    }
+  ]
+}
