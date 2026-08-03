@@ -31,7 +31,7 @@ Should be compatible with all mods, including mods that add more storages, engin
 * [Bigger Plots](https://www.raftmodding.com/mods/biggerplots)
 
 ### Multiplayer
-Others players wont be able to see the storage labels you created, but i'm working on it
+Storage labels are synced between players: when you create or edit a label it's broadcast live to everyone else, and new players are caught up with the current labels automatically when they join.
 
 ### Known bugs
-* Trees in cropplots are listed named as "item", I'm trying to find a better way to get the plant name
+None currently known. Found one? Ping KingBR#3793 in the [RaftModding Discord](https://discord.gg/Q8PaZ42FrC).
