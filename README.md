@@ -18,7 +18,7 @@ Shows list of the plants in the cropplot.
 ![](https://cdn.discordapp.com/attachments/621723619860545566/1025598891846021150/unknown.png)
 
 ### Compatibility
-Should be compatible with all mods, including mods that add more storages, engines, tanks, etc... If any mods cause problems, contact me in the [RaftModding](https://discord.com/invite/juE5uKf8pe) discord server (KingBR#3793)
+Should be compatible with all mods, including mods that add more storages, engines, tanks, etc... If any mods cause problems, contact me in the [RaftModding](https://discord.com/invite/juE5uKf8pe) discord server (mesterx)
 
 **Tested with:**
 * [More Storages](https://www.raftmodding.com/mods/morestorages)
@@ -34,4 +34,7 @@ Should be compatible with all mods, including mods that add more storages, engin
 Storage labels are synced between players: when you create or edit a label it's broadcast live to everyone else, and new players are caught up with the current labels automatically when they join.
 
 ### Known bugs
-None currently known. Found one? Ping KingBR#3793 in the [RaftModding Discord](https://discord.gg/Q8PaZ42FrC).
+None currently known. Found one? Ping mesterx in the [RaftModding Discord](https://discord.gg/Q8PaZ42FrC).
+
+### Credits
+Originally created by **KingBR**. Currently maintained by **mesterx**.
