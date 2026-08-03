@@ -209,7 +209,7 @@ public class UIPlus : Mod
                     formatedCapacity = (int)Math.Round(currentAmount * 100 / maxAmount) + "%";
                     break;
                 default:
-                    Debug.LogError(prefix + "Invalid format '" + format + "'. Send this error to KingBR#3793 in the RaftModding discord server");
+                    Debug.LogError(prefix + "Invalid format '" + format + "'. Send this error to mesterx in the RaftModding discord server");
                     break;
             }
         }
@@ -320,7 +320,7 @@ public class UIPlus : Mod
                             else timeLeft = formatTime(avg);
                             break;
                         default:
-                            Debug.LogError(prefix + "Unknown time format '" + timeFormat + "'. Send this error to KingBR#3793 in the RaftModding discord server: https://discord.gg/Q8PaZ42FrC");
+                            Debug.LogError(prefix + "Unknown time format '" + timeFormat + "'. Send this error to mesterx in the RaftModding discord server: https://discord.gg/Q8PaZ42FrC");
                             return "Unknown time format, see error on console (press F10)";
                     }
 
@@ -366,7 +366,7 @@ public class UIPlus : Mod
                 }
                 break;
             default:
-                Debug.LogError(prefix + "Unknown format '" + format + "'. Send this error to KingBR#3793 in the RaftModding discord server: https://discord.gg/Q8PaZ42FrC");
+                Debug.LogError(prefix + "Unknown format '" + format + "'. Send this error to mesterx in the RaftModding discord server: https://discord.gg/Q8PaZ42FrC");
                 formatted = "Unkown format, see error in console (press F10)";
                 break;
         }
@@ -559,7 +559,7 @@ public class UIPlus : Mod
         [HarmonyPostfix]
         static void OnIsRayed(Cropplot __instance, CanvasHelper ___canvas, bool ___showingText)
         {
-            if (!ExtraSettingsAPI_GetCheckboxState("enableCropplotPlantList"))
+            if (ExtraSettingsAPI_Loaded && !ExtraSettingsAPI_GetCheckboxState("enableCropplotPlantList"))
             {
                 cropplotInstance = null;
             }
@@ -1030,6 +1030,4 @@ public class UIPlus : Mod
             uint storageIndex = Patch_Storage_Small.storageInstance.ObjectIndex;
             string currentLabel = Labels.ContainsKey(storageIndex) ? Labels[storageIndex] : "";
             LabelTextWriter.Open(storageIndex, currentLabel);
-        }
-    }
-}
+  
